@@ -1,0 +1,907 @@
+{
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "platform": "macOS-15.7.7-arm64-arm-64bit",
+    "numpy": "2.4.6",
+    "scipy": "1.18.1"
+  },
+  "provenance": {
+    "implementation": "independent targeted LP checker",
+    "details": "See PROVENANCE.md."
+  },
+  "main_bound": {
+    "name": "main_two_store",
+    "success": true,
+    "status": 0,
+    "weights": [
+      "3/19",
+      "0"
+    ],
+    "D": [
+      "1",
+      "1"
+    ],
+    "C": [
+      "1",
+      "1"
+    ],
+    "Delta_exact": "3/19",
+    "Delta": 0.15789473684210525,
+    "B_primal": 0.07894736842105263,
+    "B_dual_exact": "3/38",
+    "B_dual": 0.07894736842105263,
+    "dual_lambda": "1/2",
+    "dual_breakpoints": [
+      {
+        "lambda": "0",
+        "value": "0"
+      },
+      {
+        "lambda": "1/2",
+        "value": "3/38"
+      },
+      {
+        "lambda": "1",
+        "value": "0"
+      }
+    ],
+    "primal_u": [
+      0.07894736842105263,
+      0.0
+    ],
+    "primal_dual_gap": 0.0,
+    "per_device_harmonic_sum": 0.07894736842105263,
+    "optimized_improves_per_device_harmonic_sum": true,
+    "switch_degeneracies": {
+      "1/2": [
+        0,
+        1
+      ]
+    }
+  },
+  "main_tasks": {
+    "energy_only": {
+      "name": "energy_only",
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective": 0.0,
+      "r": 0.0,
+      "values": {
+        "r": [
+          0.0
+        ],
+        "f": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "e": [
+          [
+            -0.0,
+            0.06666666666666583,
+            0.06666666666666583,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.8708333333333343,
+            1.8208333333333342,
+            0.8208333333333342,
+            0.0
+          ]
+        ],
+        "c": [
+          [
+            0.08333333333333229,
+            -0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.9166666666666677,
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "d": [
+          [
+            0.0,
+            0.0,
+            0.06666666666666583,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8208333333333342
+          ]
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.4333333333333342,
+          2.179166666666666
+        ],
+        "spill": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "physical": {
+        "max_residual": 1.1102230246251565e-16,
+        "residuals": {
+          "state": 1.1102230246251565e-16,
+          "cyclic": 0.0,
+          "balance": 5.551115123125783e-17,
+          "firm": 0.0,
+          "energy_bounds": 0.0,
+          "charge_bounds": 0.0,
+          "discharge_bounds": 0.0,
+          "external_charge": 0.0,
+          "useful_discharge": 0.0,
+          "loss_definition": 5.551115123125783e-17,
+          "spill_definition": 0.0,
+          "simultaneous_charge_discharge": 0.0
+        },
+        "ENS": 2.6125,
+        "LOLH": 2,
+        "net": [
+          1.0,
+          1.0,
+          -1.5,
+          -3.0
+        ],
+        "charge": [
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "discharge": [
+          0.0,
+          0.0,
+          1.0666666666666658,
+          0.8208333333333342
+        ]
+      },
+      "eq_residual": 1.1102230246251565e-16,
+      "ub_violation": 0.0
+    },
+    "hours_only": {
+      "name": "hours_only",
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective": 0.0,
+      "r": 0.0,
+      "values": {
+        "r": [
+          0.0
+        ],
+        "f": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "e": [
+          [
+            -0.0,
+            0.8,
+            0.8,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            0.7,
+            -0.0,
+            0.0
+          ]
+        ],
+        "c": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7368421052631579,
+            0.0,
+            0.0
+          ]
+        ],
+        "d": [
+          [
+            0.0,
+            0.0,
+            0.8,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.7,
+            0.0
+          ]
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        "spill": [
+          -0.0,
+          0.26315789473684215,
+          0.0,
+          0.0
+        ]
+      },
+      "physical": {
+        "max_residual": 0.0,
+        "residuals": {
+          "state": 0.0,
+          "cyclic": 0.0,
+          "balance": 0.0,
+          "firm": 0.0,
+          "energy_bounds": 0.0,
+          "charge_bounds": 0.0,
+          "discharge_bounds": 0.0,
+          "external_charge": 0.0,
+          "useful_discharge": 0.0,
+          "loss_definition": 0.0,
+          "spill_definition": 0.0,
+          "simultaneous_charge_discharge": 0.0
+        },
+        "ENS": 3.0,
+        "LOLH": 1,
+        "net": [
+          1.0,
+          1.0,
+          -1.5,
+          -3.0
+        ],
+        "charge": [
+          1.0,
+          0.7368421052631579,
+          0.0,
+          0.0
+        ],
+        "discharge": [
+          0.0,
+          0.0,
+          1.5,
+          0.0
+        ]
+      },
+      "eq_residual": 2.717124770793146e-17,
+      "ub_violation": 0.0
+    },
+    "joint": {
+      "name": "joint",
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective": 0.019877675840978642,
+      "r": 0.019877675840978642,
+      "values": {
+        "r": [
+          0.019877675840978642
+        ],
+        "f": [
+          0.019877675840978642,
+          0.019877675840978642,
+          0.019877675840978642,
+          0.019877675840978642
+        ],
+        "e": [
+          [
+            -0.0,
+            0.46422018348623845,
+            0.48012232415902134,
+            -0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.41762232415902156,
+            1.3676223241590215,
+            0.3676223241590215,
+            0.0
+          ]
+        ],
+        "c": [
+          [
+            0.5802752293577981,
+            0.019877675840978642,
+            0.0,
+            0.0
+          ],
+          [
+            0.4396024464831806,
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "d": [
+          [
+            0.0,
+            0.0,
+            0.48012232415902134,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3676223241590215
+          ]
+        ],
+        "loss": [
+          0.0,
+          0.0,
+          0.0,
+          2.6125
+        ],
+        "spill": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "physical": {
+        "max_residual": 5.551115123125783e-17,
+        "residuals": {
+          "state": 5.551115123125783e-17,
+          "cyclic": 0.0,
+          "balance": 0.0,
+          "firm": 0.0,
+          "energy_bounds": 0.0,
+          "charge_bounds": 0.0,
+          "discharge_bounds": 0.0,
+          "external_charge": 0.0,
+          "useful_discharge": 0.0,
+          "loss_definition": 0.0,
+          "spill_definition": 0.0,
+          "simultaneous_charge_discharge": 0.0
+        },
+        "ENS": 2.6125,
+        "LOLH": 1,
+        "net": [
+          1.0198776758409787,
+          1.0198776758409787,
+          -1.4801223241590213,
+          -2.9801223241590216
+        ],
+        "charge": [
+          1.0198776758409787,
+          1.0198776758409787,
+          0.0,
+          0.0
+        ],
+        "discharge": [
+          0.0,
+          0.0,
+          1.4801223241590213,
+          0.3676223241590215
+        ]
+      },
+      "eq_residual": 5.551115123125783e-17,
+      "ub_violation": 0.0
+    }
+  },
+  "homogeneous_auxiliary": {
+    "name": "homogeneous_auxiliary_r0",
+    "status": 0,
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 2.6,
+    "r": 0.0,
+    "values": {
+      "r": [
+        0.0
+      ],
+      "f": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "e": [
+        [
+          -0.0,
+          0.19999999999999996,
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.75,
+          0.8999999999999999,
+          0.3999999999999999,
+          0.0
+        ]
+      ],
+      "c": [
+        [
+          0.21052631578947364,
+          0.8421052631578948,
+          0.0,
+          0.0
+        ],
+        [
+          0.7894736842105263,
+          0.1578947368421052,
+          0.0,
+          0.0
+        ]
+      ],
+      "d": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5,
+          0.3999999999999999
+        ]
+      ],
+      "loss": [
+        0.0,
+        0.0,
+        0.0,
+        2.6
+      ],
+      "spill": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "physical": {
+      "max_residual": 2.7755575615628914e-17,
+      "residuals": {
+        "state": 2.7755575615628914e-17,
+        "cyclic": 0.0,
+        "balance": 0.0,
+        "firm": 0.0,
+        "energy_bounds": 0.0,
+        "charge_bounds": 0.0,
+        "discharge_bounds": 0.0,
+        "external_charge": 0.0,
+        "useful_discharge": 0.0,
+        "loss_definition": 0.0,
+        "spill_definition": 0.0,
+        "simultaneous_charge_discharge": 0.0
+      },
+      "ENS": 2.6,
+      "LOLH": 1,
+      "net": [
+        1.0,
+        1.0,
+        -1.5,
+        -3.0
+      ],
+      "charge": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "discharge": [
+        0.0,
+        0.0,
+        1.5,
+        0.3999999999999999
+      ]
+    },
+    "eq_residual": 2.3957444215595484e-17,
+    "ub_violation": 0.0
+  },
+  "mapped_transformation": {
+    "z": [
+      0.9210526315789473,
+      1.0
+    ],
+    "firm_charge_extra": [
+      0.019736842105263108,
+      0.07894736842105243,
+      0.0,
+      0.0
+    ],
+    "firm_discharge_extra": [
+      0.0,
+      0.0,
+      0.07894736842105265,
+      0.0
+    ],
+    "physical": {
+      "max_residual": 1.1102230246251565e-16,
+      "residuals": {
+        "state": 1.1102230246251565e-16,
+        "cyclic": 0.0,
+        "balance": 0.0,
+        "firm": 2.7755575615628914e-17,
+        "energy_bounds": 0.0,
+        "charge_bounds": 0.0,
+        "discharge_bounds": 0.0,
+        "external_charge": 0.0,
+        "useful_discharge": 0.0,
+        "loss_definition": 0.0,
+        "spill_definition": 0.0,
+        "simultaneous_charge_discharge": 0.0
+      },
+      "ENS": 2.6,
+      "LOLH": 1,
+      "net": [
+        1.019736842105263,
+        1.0789473684210524,
+        -1.4210526315789473,
+        -3.0
+      ],
+      "charge": [
+        1.019736842105263,
+        1.0789473684210524,
+        0.0,
+        0.0
+      ],
+      "discharge": [
+        0.0,
+        0.0,
+        1.4210526315789473,
+        0.3999999999999999
+      ]
+    },
+    "values": {
+      "r": [
+        0.07894736842105263
+      ],
+      "f": [
+        0.019736842105263108,
+        0.07894736842105243,
+        0.07894736842105265,
+        0.0
+      ],
+      "e": [
+        [
+          -0.0,
+          0.18421052631578944,
+          0.9210526315789473,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.75,
+          0.8999999999999999,
+          0.3999999999999999,
+          0.0
+        ]
+      ],
+      "c": [
+        [
+          0.23026315789473675,
+          0.9210526315789472,
+          0.0,
+          0.0
+        ],
+        [
+          0.7894736842105263,
+          0.1578947368421052,
+          0.0,
+          0.0
+        ]
+      ],
+      "d": [
+        [
+          0.0,
+          0.0,
+          0.9210526315789473,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.5,
+          0.3999999999999999
+        ]
+      ],
+      "loss": [
+        0.0,
+        0.0,
+        0.0,
+        2.6
+      ],
+      "spill": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "targeted_bound_cases": [
+    {
+      "name": "zero_energy",
+      "success": true,
+      "status": 0,
+      "weights": [
+        "3/19",
+        "0"
+      ],
+      "D": [
+        "0",
+        "1"
+      ],
+      "C": [
+        "0",
+        "1"
+      ],
+      "Delta_exact": "3/19",
+      "Delta": 0.15789473684210525,
+      "B_primal": 0.0,
+      "B_dual_exact": "0",
+      "B_dual": 0.0,
+      "dual_lambda": "0",
+      "dual_breakpoints": [
+        {
+          "lambda": "0",
+          "value": "0"
+        },
+        {
+          "lambda": "1/2",
+          "value": "0"
+        },
+        {
+          "lambda": "1",
+          "value": "0"
+        }
+      ],
+      "primal_u": [
+        0.0,
+        0.0
+      ],
+      "primal_dual_gap": 0.0,
+      "per_device_harmonic_sum": 0.0,
+      "optimized_improves_per_device_harmonic_sum": true,
+      "switch_degeneracies": {}
+    },
+    {
+      "name": "zero_charge",
+      "success": true,
+      "status": 0,
+      "weights": [
+        "3/19",
+        "0"
+      ],
+      "D": [
+        "1",
+        "1"
+      ],
+      "C": [
+        "0",
+        "1"
+      ],
+      "Delta_exact": "3/19",
+      "Delta": 0.15789473684210525,
+      "B_primal": 0.0,
+      "B_dual_exact": "0",
+      "B_dual": 0.0,
+      "dual_lambda": "0",
+      "dual_breakpoints": [
+        {
+          "lambda": "0",
+          "value": "0"
+        },
+        {
+          "lambda": "1/2",
+          "value": "0"
+        },
+        {
+          "lambda": "1",
+          "value": "0"
+        }
+      ],
+      "primal_u": [
+        0.0,
+        0.0
+      ],
+      "primal_dual_gap": 0.0,
+      "per_device_harmonic_sum": 0.0,
+      "optimized_improves_per_device_harmonic_sum": true,
+      "switch_degeneracies": {}
+    },
+    {
+      "name": "zero_discharge",
+      "success": true,
+      "status": 0,
+      "weights": [
+        "3/19",
+        "0"
+      ],
+      "D": [
+        "0",
+        "1"
+      ],
+      "C": [
+        "1",
+        "1"
+      ],
+      "Delta_exact": "0",
+      "Delta": 0.0,
+      "B_primal": 0.0,
+      "B_dual_exact": "0",
+      "B_dual": 0.0,
+      "dual_lambda": "0",
+      "dual_breakpoints": [
+        {
+          "lambda": "0",
+          "value": "0"
+        },
+        {
+          "lambda": "1/2",
+          "value": "0"
+        },
+        {
+          "lambda": "1",
+          "value": "0"
+        }
+      ],
+      "primal_u": [
+        0.15789473684210525,
+        0.0
+      ],
+      "primal_dual_gap": 0.0,
+      "per_device_harmonic_sum": 0.0,
+      "optimized_improves_per_device_harmonic_sum": true,
+      "switch_degeneracies": {}
+    },
+    {
+      "name": "equal_eta",
+      "success": true,
+      "status": 0,
+      "weights": [
+        "0",
+        "0"
+      ],
+      "D": [
+        "1",
+        "1"
+      ],
+      "C": [
+        "1",
+        "1"
+      ],
+      "Delta_exact": "0",
+      "Delta": 0.0,
+      "B_primal": 0.0,
+      "B_dual_exact": "0",
+      "B_dual": 0.0,
+      "dual_lambda": "0",
+      "dual_breakpoints": [
+        {
+          "lambda": "0",
+          "value": "0"
+        },
+        {
+          "lambda": "1/2",
+          "value": "0"
+        },
+        {
+          "lambda": "1",
+          "value": "0"
+        }
+      ],
+      "primal_u": [
+        0.0,
+        0.0
+      ],
+      "primal_dual_gap": 0.0,
+      "per_device_harmonic_sum": 0.0,
+      "optimized_improves_per_device_harmonic_sum": true,
+      "switch_degeneracies": {
+        "1/2": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "three_switching_devices",
+      "success": true,
+      "status": 0,
+      "weights": [
+        "7/19",
+        "4/19",
+        "0"
+      ],
+      "D": [
+        "2",
+        "7/10",
+        "3/2"
+      ],
+      "C": [
+        "2/5",
+        "6/5",
+        "3"
+      ],
+      "Delta_exact": "84/95",
+      "Delta": 0.8842105263157894,
+      "B_primal": 0.14736842105263157,
+      "B_dual_exact": "14/95",
+      "B_dual": 0.14736842105263157,
+      "dual_lambda": "1/6",
+      "dual_breakpoints": [
+        {
+          "lambda": "0",
+          "value": "0"
+        },
+        {
+          "lambda": "1/6",
+          "value": "14/95"
+        },
+        {
+          "lambda": "12/19",
+          "value": "14/95"
+        },
+        {
+          "lambda": "2/3",
+          "value": "2/15"
+        },
+        {
+          "lambda": "1",
+          "value": "0"
+        }
+      ],
+      "primal_u": [
+        -0.0,
+        0.21052631578947367,
+        0.0
+      ],
+      "primal_dual_gap": 0.0,
+      "per_device_harmonic_sum": 0.21588180978762697,
+      "optimized_improves_per_device_harmonic_sum": true,
+      "switch_degeneracies": {}
+    }
+  ],
+  "expected": {
+    "rE": 0.0,
+    "rH": 0.0,
+    "rjoint": 0.019877675840978593,
+    "Delta": 0.15789473684210525,
+    "B": 0.07894736842105263
+  },
+  "checks": {
+    "bound_primal_dual_main": true,
+    "main_B_expected": true,
+    "main_Delta_expected": true,
+    "rE_expected": true,
+    "rH_expected": true,
+    "rjoint_expected": true,
+    "joint_physical": true,
+    "auxiliary_physical": true,
+    "transformed_physical": true,
+    "all_bound_cases_primal_dual": true,
+    "three_device_improvement": true
+  },
+  "all_passed": true
+}

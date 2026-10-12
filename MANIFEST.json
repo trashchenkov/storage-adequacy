@@ -1,0 +1,25 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    ".gitignore": "085c4a4ebc67e52e2256b6bd159fe43b4c60b4020d89915d160261a32c34c60b",
+    "CITATION.cff": "9e6c8245f8289a7926c8138dd38b1aa37480c134761233b05035176785c60d57",
+    "LICENSE": "4982f6c7b6e72b6a2e1ff425569d451a29ccf13c05257b32663683d07c22d53a",
+    "PROVENANCE.md": "c74085071fd2f2e58cbe1aa7c503a8d19e07a0358c9450690c7858997f4461f1",
+    "README.md": "3c747e410b85f72fb3fa965e80107ef2f648a3822145ac3654674811828bf917",
+    "README.ru.md": "36e5f0c3b1c6c14326001f9046c94bc52983def5e18a2a21189bb49247262dd4",
+    "VALIDATION.md": "809fb9c34ad7ebe10408abea3a92242773ecdc425b33730b6908289f4041045c",
+    "data/cases.json": "746a5a603b557717cf906b5d68f89ec5d3ceebdb3ad0b4d39ff7f6f5510a0d3f",
+    "reproduce.py": "8b1255c007f70b8e3184fbb7e2f16d47fb6f26923b05dee9fdae590ba0740807",
+    "requirements.txt": "90bf55e709a8c9ef10a3a4d1c28f6ddff5908f5e72227a97df0d9509ed65d4ec",
+    "results/reference/exact_certificates.json": "2668ce9de206534029371a38a991015fc81a965e10e91645360122cab8948f2b",
+    "results/reference/family_checks.json": "03bc1721238b8c8400ffbe5c05702d72070ae1a6267760dac58bc853b603cf66",
+    "results/reference/independent_results.json": "ee8f4c91442d7f277257e16ca2533c1055bd434f23a64f781f1bd807f49165e5",
+    "results/reference/primary_results.json": "a3aa03b55af4203df79ba6bd7e11579bda8546cf5c2f5dbafc6494043bfeee84",
+    "scripts/check_family.py": "a9127c711c4ca24848dcecb128207b51584e50c5d387e30ed2631d62dd7f2722",
+    "scripts/check_theory.py": "26b576db5adceeef0b962c1a819d25aabd2168e29a0ad9b253c78bf7de7b821c",
+    "scripts/exact_certificates.py": "ee7f0b53f17fb0f94c26fce48db08ed1bbdf12d07f06e8cb7200e2ca51be15de",
+    "scripts/independent_check.py": "2ddaea0da7baaedd1c579d54c0db0be2646f7083047eadf7f3d58d87a499469b",
+    "scripts/plot_results.py": "f9387c49d132074b8ca8ed1a0b4da02f73125d1b3db64e1c1e3bd55027daea08",
+    "verify_repository.py": "bcd287c3f787d43431480d55000bb12d896f7e9ea7929b9b7528dfd6b571b658"
+  }
+}

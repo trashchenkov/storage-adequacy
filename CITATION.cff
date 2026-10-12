@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software when using these reproducibility materials."
+type: software
+version: 1.0.0
+repository-code: "https://github.com/trashchenkov/storage-adequacy"
+title: "Joint ENS and LOLH limits in storage systems: reproducibility code"
+authors:
+  - family-names: Trashchenkov
+    given-names: Sergei
+license: MIT
+abstract: >-
+  Numerical and exact-rational checks accompanying the manuscript
+  Additional firm capacity for joint energy-not-served and loss-of-load-hours
+  limits in storage systems.
+keywords:
+  - energy storage
+  - resource adequacy
+  - energy not served
+  - loss of load hours
+  - reproducibility

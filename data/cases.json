@@ -1,0 +1,434 @@
+{
+  "created_at_utc": "2026-10-11T00:05:51.245271+00:00",
+  "status": "Predefined cases fixed before optimization.",
+  "time_step_hours": "1",
+  "case_count": 15,
+  "cases": [
+    {
+      "name": "four_hour_reference",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": "13/654"
+    },
+    {
+      "name": "cyclic_rotation",
+      "x": [
+        "-3/2",
+        "-3",
+        "1",
+        "1"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": "13/654"
+    },
+    {
+      "name": "split_charge_window",
+      "x": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": null
+    },
+    {
+      "name": "concentrated_charge_window",
+      "x": [
+        "2",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": null
+    },
+    {
+      "name": "zero_energy_A",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "0",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "zero_charge_power_A",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "0",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "zero_discharge_power_A",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "0",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "209/80",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "single_store",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2"
+      ],
+      "Pc": [
+        "1"
+      ],
+      "Pd": [
+        "1"
+      ],
+      "eta": [
+        "4/5"
+      ],
+      "Ebar": "3",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "nearly_equal_eta",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "9499/10000",
+        "19/20"
+      ],
+      "Ebar": "13/5",
+      "Hbar": 1,
+      "expected_gamma": null
+    },
+    {
+      "name": "equal_eta",
+      "x": [
+        "1",
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "2",
+        "2"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "19/20",
+        "19/20"
+      ],
+      "Ebar": "13/5",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "B2_sufficient",
+      "x": [
+        "2",
+        "-3/2",
+        "-2"
+      ],
+      "E": [
+        "1",
+        "1"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "7/4",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "B2_not_necessary",
+      "x": [
+        "19/10",
+        "-3/2",
+        "-2"
+      ],
+      "E": [
+        "1",
+        "1"
+      ],
+      "Pc": [
+        "1",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "183/100",
+      "Hbar": 1,
+      "expected_gamma": "0"
+    },
+    {
+      "name": "three_heterogeneous_stores",
+      "x": [
+        "2",
+        "1",
+        "-2",
+        "-3",
+        "-1"
+      ],
+      "E": [
+        "1",
+        "2",
+        "3/2"
+      ],
+      "Pc": [
+        "3/10",
+        "2",
+        "1"
+      ],
+      "Pd": [
+        "1",
+        "1/2",
+        "3/2"
+      ],
+      "eta": [
+        "3/5",
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "3",
+      "Hbar": 2,
+      "expected_gamma": null
+    },
+    {
+      "name": "sharp_family_N1",
+      "x": [
+        "5/2",
+        "-35/16",
+        "-51/16"
+      ],
+      "E": [
+        "1",
+        "19/8"
+      ],
+      "Pc": [
+        "5/4",
+        "5/2"
+      ],
+      "Pd": [
+        "1",
+        "19/16"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "3",
+      "Hbar": 1,
+      "expected_gamma": "15/251"
+    },
+    {
+      "name": "energy_cap_half_hour",
+      "x": [
+        "1",
+        "-3/2",
+        "-3"
+      ],
+      "E": [
+        "1/2",
+        "1/2"
+      ],
+      "Pc": [
+        "10",
+        "10"
+      ],
+      "Pd": [
+        "1",
+        "1"
+      ],
+      "eta": [
+        "4/5",
+        "19/20"
+      ],
+      "Ebar": "37/10",
+      "Hbar": 1,
+      "expected_gamma": null
+    }
+  ],
+  "additional_exact_arithmetic": "original sharp family N=1,4,16,64,1024 evaluated from supplied exact formula only; no LP reruns for N>1",
+  "limits": {
+    "each_MILP_time_limit_seconds": 30,
+    "mip_rel_gap": 1e-10,
+    "physical_residual_tolerance": 5e-07,
+    "numeric_loss_count_tolerance": 1e-07
+  },
+  "verification_scope": "finite solver checks are tests of examples and explicit maps, not a proof over all systems; optimization computes each of rE,rH,rjoint separately with free f_t and cyclic states"
+}
