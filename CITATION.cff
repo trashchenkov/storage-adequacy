@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software when using these reproducibility materials."
 type: software
 version: 1.0.0
+date-released: 2026-10-12
+doi: "10.5281/zenodo.23315908"
 repository-code: "https://github.com/trashchenkov/storage-adequacy"
 title: "Joint ENS and LOLH limits in storage systems: reproducibility code"
 authors:

@@ -4,6 +4,8 @@ Reproducibility code for **Additional firm capacity for joint energy-not-served 
 
 Source repository: [https://github.com/trashchenkov/storage-adequacy](https://github.com/trashchenkov/storage-adequacy).
 
+Archived release **v1.0.0**: [10.5281/zenodo.23315908](https://doi.org/10.5281/zenodo.23315908). Cite this version-specific DOI to identify the calculations used in the manuscript.
+
 The code reproduces the analytical examples and numerical checks of the manuscript: separate and joint minimum source capacities, equipment-dependent bounds, feasible schedules, and the sharpness family. [Русская инструкция](README.ru.md).
 
 ## Quick start
@@ -80,4 +82,4 @@ The primary script requires a new output filename. The other three replace their
 
 [PROVENANCE.md](PROVENANCE.md) identifies the implementations and packaging changes. `MANIFEST.json` records SHA-256 hashes of the delivered files, excluding itself and generated outputs. This checks accidental changes, not publisher authentication. Editing a delivered file makes the frozen integrity check fail; use individual scripts while developing a modified version.
 
-Citation metadata are in [CITATION.cff](CITATION.cff). The Zenodo DOI and manuscript identifier will be added after registration. The code, included inputs and accompanying documentation are distributed under the [MIT license](LICENSE).
+Citation metadata are in [CITATION.cff](CITATION.cff). The Zenodo DOI identifies the archived code release. A manuscript identifier will be added after publication. The code, included inputs and accompanying documentation are distributed under the [MIT license](LICENSE).
